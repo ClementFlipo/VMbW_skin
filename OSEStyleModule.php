@@ -1,26 +1,26 @@
 <?php
 
-## Uncomment this to disable output compression
-# $wgDisableOutputCompression = true;
-
-$wgSitename = "Wiki Low-tech Lab";
-$wgMetaNamespace = "Wiki_Low-tech_Lab";
-
+$wgResourceModules['ext.OSEStyleModule.js'] = array(
+		'scripts' => array(),
+		'styles' => array('style.css'),
+		'messages' => array(
+		),
+		'dependencies' => array(
+		),
+		'position' => 'bottom',
+		'localBasePath' => __DIR__ . '/ressources',
+		'remoteExtPath' => 'OSEStyleModule',
+);
 
 ## The URL path to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
-$wgLogo = "$wgResourceBasePath/skins/lowtechlab-skin/images/wiki.png";
+$wgLogo = "$wgExtensionAssetsPath/OSEStyleModule/ressources/images/wiki.png";
 
-$wgFavicon = "/skins/lowtechlab-skin/images/favicon.ico";
+$wgFavicon = "$wgExtensionAssetsPath/OSEStyleModule/ressources/images/favicon.ico";
 
 
-$egChameleonExternalStyleModules = array(
-    __DIR__ . '/skins/lowtechlab-skin/css/style.css' => $wgScriptPath . '/skins/lowtechlab-skin',
-);
+$egChameleonExternalStyleModules[__DIR__ . '/ressources/style.css' ] = $wgScriptPath . '/skins/ose-skin';
 
-require_once "$IP/extensions/LowtechlabSkin/LowtechlabSkin.php";
-
-$egWfExploreLayoutForm= __DIR__ . '/skins/lowtechlab-skin/LowTechLabLayoutExploreForm.php';
 
 $wfexploreCategories = array (
         'Type' => array (
