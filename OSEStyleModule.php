@@ -12,8 +12,17 @@ $wgResourceModules['ext.OSEStyleModule.css'] = array(
 		'remoteExtPath' => 'OSEStyleModule/ressources',
 );
 
+<<<<<<< Updated upstream
 
 $wgMessagesDirs['OSEStyleModule'] = __DIR__ . "/i18n";
+=======
+$egChameleonLayoutFile= __DIR__ . '/layout/layout-OSE.xml';
+
+$wgFooterIcons['poweredby']['wikifab']['url'] = "http://en.wikifab.org/";
+
+## The URL path to the logo.  Make sure you change this from the default,
+## or else you'll overwrite your logo when you upgrade!
+>>>>>>> Stashed changes
 
 $wgLogo = $wgScriptPath . "/extensions/OSEStyleModule/ressources/images/wiki.png";
 
