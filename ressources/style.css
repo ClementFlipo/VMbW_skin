@@ -12,8 +12,21 @@
 
 @media (min-width: 768px) {
 .navbar-personaltools {
-    border-color:#b4910e;
+    border-color:#dbb00f;
 }
+}
+
+body.page-Main_Page {
+	background-color:#fff;
+}
+
+body.page-Main_Page img {
+	max-width:100%;
+	max-height:100%;
+}
+
+.lang {
+	margin:20px 0 0;
 }
 
 .ltl-footer-text {
@@ -28,7 +41,8 @@
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-	background-color: #b4910e;
+    background-color: #dbb00f;
+    color: #000;
 }
 
 .sign-up-button-hp, .forminput_button, .donation-button, .community-button, .sign-up-developers {
