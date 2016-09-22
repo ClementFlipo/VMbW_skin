@@ -27,6 +27,10 @@
 	background-color:#3D484A;
 }
 
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: #b4910e;
+}
+
 .sign-up-button-hp, .forminput_button, .donation-button, .community-button, .sign-up-developers {
 	background:#c1ac55;
 }
