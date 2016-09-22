@@ -22,7 +22,7 @@ use Linker;
  * @since 1.0
  * @ingroup Skins
  */
-class LowtechlabFooterLinks extends Component {
+class OSEFooterLinks extends Component {
 
 	/**
 	 * Builds the HTML code for this component
@@ -32,9 +32,9 @@ class LowtechlabFooterLinks extends Component {
 	public function getHtml() {
 
 		$ret = '
-			<div class="row footer-links">			
+			<div class="row footer-links">
 				<div class="col-md-6 col-sm-6 col-xs-12">
-				<div class="row">				
+				<div class="row">
 				<div class="col-md-7 col-sm-7 col-xs-6">
 					<h4>'. wfMessage( 'wffootertitle-cuto-1' )->text() .'</h4>
 					<ul class="list-unstyled">

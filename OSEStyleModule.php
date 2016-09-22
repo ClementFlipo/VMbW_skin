@@ -12,17 +12,17 @@ $wgResourceModules['ext.OSEStyleModule.css'] = array(
 		'remoteExtPath' => 'OSEStyleModule/ressources',
 );
 
-<<<<<<< Updated upstream
 
 $wgMessagesDirs['OSEStyleModule'] = __DIR__ . "/i18n";
-=======
+
+$wgAutoloadClasses['Skins\\Chameleon\\Components\\OSEFooter'] = __DIR__ . "/includes/Components/OSEFooter.php";
+$wgAutoloadClasses['Skins\\Chameleon\\Components\\OSEFooterLinks'] = __DIR__ . "/includes/Components/OSEFooterLinks.php";
+$wgAutoloadClasses['Skins\\Chameleon\\Components\\WikifabFooterLinks'] = __DIR__ . "/includes/Components/WikifabFooterLinks.php";
+
 $egChameleonLayoutFile= __DIR__ . '/layout/layout-OSE.xml';
 
 $wgFooterIcons['poweredby']['wikifab']['url'] = "http://en.wikifab.org/";
 
-## The URL path to the logo.  Make sure you change this from the default,
-## or else you'll overwrite your logo when you upgrade!
->>>>>>> Stashed changes
 
 $wgLogo = $wgScriptPath . "/extensions/OSEStyleModule/ressources/images/wiki.png";
 

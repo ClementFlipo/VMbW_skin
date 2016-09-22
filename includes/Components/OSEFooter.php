@@ -22,7 +22,7 @@ use Linker;
  * @since 1.0
  * @ingroup Skins
  */
-class LowtechlabFooter extends Component {
+class OSEFooter extends Component {
 
 	/**
 	 * Builds the HTML code for this component
