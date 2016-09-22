@@ -1,8 +1,30 @@
+.navbar-default {
+	    background-color: #ecbe13;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color:#444;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color:#000;
+}
+
+@media (min-width: 768px) {
+.navbar-personaltools {
+    border-color:#b4910e;
+}
+}
+
 .ltl-footer-text {
     font-size: 13px;
     color: #aaa;
     text-align: justify;
     padding-right: 5%;
+}
+
+.footer-main {
+	background-color:#3D484A;
 }
 
 .sign-up-button-hp, .forminput_button, .donation-button, .community-button, .sign-up-developers {
@@ -17,40 +39,15 @@
 	margin-left:5px;
 }
 
-.footer-credits a {
-	color:#c5c292;
-}
-
-.footer-credits a:hover {
-	color:#b0ad7b
-}
-
-#wpPreview, #wpDiff, #wpSave, .site-button, .multipleTemplateAdder {
-	background-color: #782b47;
-}
-
-#wpPreview:hover, #wpDiff:hover, #wpSave:hover, .site-button:hover, .multipleTemplateAdder:hover {
-	background-color: #591930;
-}
-
-.glyphicon-user:before {
-	color: #782b47;
-}
-
-.saving-menu .editHelp:hover {
-	background-color:#c1ac55;
+.footer-credits a, .footer-credits a:visited {
+	color:#5eabed;
 }
 
 .wf-top-button .btn {
-    background-color: #0c5154;
-    border: 1px solid #0c5154;
+    background-color: #444;
+    border: 1px solid #444;
     color: #fff;
     background-image: none;
-}
-
-.marketing-section-hp, .wd-section-hp {
-	background-image: url('/skins/lowtechlab-skin/images/bg-ltl.jpg');
-	background-size: cover;
 }
 
 .ltl-footer-link a {
@@ -62,8 +59,8 @@
 }
 
 .wf-top-button .btn:hover {
-    background-color: #042d2f;
-    border: 1px solid #042d2f;
+    background-color: #000;
+    border: 1px solid #000;
     color: #fff;
     background-image: none;
 }
