@@ -1,0 +1,513 @@
+
+/*************************
+ CSS of Group Pages
+**************************/
+
+
+body[class^='page-Group_'].action-view, body[class*='page-Group_'].action-view {
+	background-color: #f9fafc;
+}
+
+body[class^='page-Group_'].action-view .firstHeading, body[class*='page-Group_'].action-view .firstHeading {
+	display:none;
+}
+
+body[class^='page-Group_'].action-view #mw-content-text ul.tabbernav, body[class*='page-Group_'].action-view #mw-content-text ul.tabbernav {
+	max-width: 1170px;
+	margin:auto;
+    border-bottom: 0;
+}
+
+body[class^='page-Group_'] .group-banner img, body[class*='page-Group_'] .group-banner img {
+	width:100%;
+    height: 100%;
+}
+
+body[class^='page-Group_'] .group-banner, body[class*='page-Group_'] .group-banner {
+	height: 165px;
+	overflow: hidden;
+}
+
+.group-info span {
+    margin-right: 15px;
+	color:#888;
+}
+
+body[class^='page-Group_'] .group-info span a, body[class*='page-Group_'] .group-info span a{
+	color:#888;
+}
+
+body[class^='page-Group_'] .group-title-box, body[class*='page-Group_'] .group-title-box {
+    margin-top: -120px;
+}
+
+body[class^='page-Group_'] .group-title-box h1.group-title, body[class*='page-Group_'] .group-title-box h1.group-title {
+	padding-top: 69px;
+	margin-bottom: 28px;
+	margin-top:0px;
+	color:#fff;
+    text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 3px;
+}
+
+body[class^='page-Group_'].action-view #mw-content-text .tabber .tabbertab, body[class*='page-Group_'].action-view #mw-content-text .tabber .tabbertab {
+	background:#fff;
+	border:none;
+	border-top:1px solid #ddd;
+}	
+
+body[class^='page-Group_'].action-view #mw-content-text ul.tabbernav li a, body[class*='page-Group_'].action-view #mw-content-text ul.tabbernav li a {
+    background: transparent;
+}
+
+body[class^='page-Group_'].action-view .group-main-image p, body[class*='page-Group_'].action-view .group-main-image p{
+	height: 260px;
+    overflow: hidden;
+    border: 9px solid #ddd;
+    border-radius: 13px;
+	background:#fff;
+}
+
+body[class^='page-Group_'].action-view .group-main-image img, body[class*='page-Group_'].action-view .group-main-image img{
+    width: 100%;
+    height: initial;
+}
+
+.group-event-icon {
+    line-height: 23px;
+    color: #888;
+}
+
+.page-Formulaire_Groupe .contentHeader { display:none; }
+.page-Formulaire_Groupe .mw-body { margin-top:0px; margin-bottom:0px;}
+.page-Formulaire_Groupe .navbar { margin-bottom:0px; }
+
+.page-Formulaire_Groupe .footerdata {
+	display:none;
+}
+
+.page-Formulaire_Groupe .col-lg-12{
+	padding-right:0px;
+	padding-left:0px;
+}
+
+body[class^='page-Group_'] .contentHeader, body[class*='page-Group_'] .contentHeader { display:none; }
+body[class^='page-Group_'] .mw-body, body[class*='page-Group_'] .mw-body { margin-top:0px }
+
+body[class^='page-Group_'] .col-lg-12, body[class*='page-Group_'] .col-lg-12 {
+	padding-right:0px;
+	padding-left:0px;
+}
+
+body[class^='page-Group_'].action-view span.group-type, body[class*='page-Group_'].action-view span.group-type {
+    font-size: 14.5px;
+    font-weight: normal;
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-left: 8px;
+    text-shadow: rgba(0, 0, 0, 0.7) 0px 0px 3px;
+}
+
+body[class^='page-Group_'].action-view #mw-content-text ul.tabbernav li.tabberactive a, body[class*='page-Group_'].action-view #mw-content-text ul.tabbernav li.tabberactive a {
+    background: #fff;
+}
+
+body[class^='page-Group_'] .navbar, body[class*='page-Group_'] .navbar {
+	margin-bottom: 0px;
+}
+
+body[class^='page-Group_'] .wiki-nav, body[class*='page-Group_'] .wiki-nav {
+    background: #fff;
+    padding-top: 20px;
+}
+
+body[class^='page-Group_'].action-view .p-contentnavigation li.selected, body[class*='page-Group_'].action-view .p-contentnavigation li.selected {
+    border-bottom: 1px solid #f9fafc;
+	background: #f9fafc;
+}
+
+body[class^='page-Group_'].action-view #catlinks, body[class*='page-Group_'].action-view #catlinks {
+    float: left;
+    width: 100%;
+    background: #fff;
+    margin-top: 0px;
+    padding: 20px 0px 70px;
+}
+
+body[class^='page-Group_'].action-view #mw-content-text ul.tabbernav li a, body[class*='page-Group_'].action-view #mw-content-text ul.tabbernav li a {
+    margin-left: 13px;
+	padding: 13px 16px;
+}
+
+body[class^='page-Spécial_AjouterDonnées_Groupe_'] .contentHeader, body[class*='page-Spécial_AjouterDonnées_Groupe_'] .contentHeader,
+body[class^='page-Special_FormEdit_Group_'] .contentHeader, body[class*='page-Special_FormEdit_Group_'] .contentHeader {
+	display:none;
+}
+
+body[class^='page-Spécial_AjouterDonnées_Groupe_'] .col-lg-12, body[class*='page-Spécial_AjouterDonnées_Groupe_'] .col-lg-12,
+body[class^='page-Special_FormEdit_Group_'] .col-lg-12, body[class*='page-Special_FormEdit_Group_'] .col-lg-12 {
+	padding-right:0px;
+	padding-left:0px;
+}
+
+body[class^='page-Group_'].action-view #mw-content-text ul.tabbernav, body[class*='page-Group_'].action-view #mw-content-text ul.tabbernav {
+	padding: 13px 0;
+}
+
+p.machines-form-first, p.machines-form {
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+.group-tabs .multipleTemplateAdder {
+    width: inherit;
+}
+
+.group-tabs img.removeButton, .group-tabs img.addAboveButton, .group-tabs img.instanceRearranger {
+	width: 80%;
+}
+
+.group-form-page {
+	background-color:#93a5aa;
+	background-image:url('/skins/lowtechlab-skin/images/group-bg.jpg');
+	background-position:left bottom ;
+	height:600px;
+    background-repeat: repeat-x;
+	background-size: cover;
+}
+
+.group-section-0 {
+	text-align:center;
+	padding: 40px 0 20px 0;
+}
+
+.group-section-0 h2 {
+	font-size:36px;
+}
+
+.group-section-0 p {
+	font-size: 18px;
+	max-width: 600px;
+	margin: 20px auto;
+	color: #888;
+}
+
+.group-section-1 {
+	padding: 40px 0px 50px;
+	border-bottom: 1px solid #eee;
+}
+
+.group-section-1 img {
+	width:100%;
+	height:100%;
+	max-width:480px;
+}
+
+.group-section-1 .img-part {
+	text-align:center;
+}
+
+.group-section-2 {
+	padding: 50px 0px 0px;
+}
+
+.group-section-2 p {
+	margin-top:70px;
+}
+
+.group-section-2 img {
+	width:100%;
+	height:100%;
+}
+
+.new-group-page {
+    text-align: center;
+    margin: 150px 0px;
+}
+
+.group-form-page h1 {
+	font-size:45px;
+	color:#fff;
+}
+
+.mw-content-ltr .group-form-page .formInput {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 9px 11px;
+    width: 50%;
+	max-width: 400px;
+    font-size: 17px;
+    margin-right: 5px;
+    border: 1px solid #aaa;
+}
+
+.new-group-page p.group-form-subtitle {
+	font-size: 18px;
+    color: #fff;
+    margin: 30px auto 10px;
+    max-width: 640px;
+}
+
+p.machines-form {
+	margin-top:10px;
+}
+
+.group-tabs h2 {
+    font-size: 26px;
+    margin: 0px 0px 25px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+body[class^='page-Group_'].action-view #catlinks #mw-normal-catlinks, body[class*='page-Group_'].action-view #catlinks #mw-normal-catlinks {
+	max-width: 1170px;
+    margin: auto;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+body[class^='page-Group_'].action-view .Input-tabs, body[class*='page-Group_'].action-view .Input-tabs {
+	margin-bottom:0px;
+}
+
+body[class^='page-Group_'].action-view .footerdata, body[class*='page-Group_'].action-view .footerdata {
+	margin-top:0px;
+}
+
+@media (max-width: 1200px) {
+	body[class^='page-Group_'].action-view .group-main-image p, body[class*='page-Group_'].action-view .group-main-image p{
+		height: 210px;
+	}
+}
+
+@media (max-width: 992px) {
+	body[class^='page-Group_'].action-view .group-main-image p, body[class*='page-Group_'].action-view .group-main-image p{
+		height: 157px;
+	}
+}
+
+@media (max-width: 768px) {
+	body[class^='page-Group_'].action-view .group-main-image p, body[class*='page-Group_'].action-view .group-main-image p{
+		height: 100%;
+	    max-width: 200px;
+	    margin: auto;
+	}
+	body[class^='page-Group_'].action-view #mw-content-text ul.tabbernav li a, body[class*='page-Group_'].action-view #mw-content-text ul.tabbernav li a {
+	    margin-left: 5px;
+	    padding: 13px 7px;
+	    font-size: 12px;
+	}
+	.group-info span {
+	    color: #888;
+	    margin-bottom: 4px;
+	    width: 100%;
+	    float: left;
+	}
+	body[class^='page-Group_'] .group-title-box h1.group-title, body[class*='page-Group_'] .group-title-box h1.group-title {
+		padding-top: 29px;
+		color: inherit;
+		text-shadow: none;
+	}
+	body[class^='page-Group_'].action-view span.group-type, body[class*='page-Group_'].action-view span.group-type {
+		text-shadow: none;
+	}
+	#mw-content-text .group-main-tabs ul.tabbernav li a {
+	    font-size: 15px;
+	    padding: 14px 10px 32px;
+	}
+}
+
+#mw-content-text .group-main-tabs ul.tabbernav {
+	text-align:center;
+    border: none;
+	padding: 18px 0 16px;
+}
+
+#mw-content-text .group-main-tabs ul.tabbernav li a {
+    font-size: 18px;
+    padding: 14px 20px 32px;
+    margin: 0 15px;
+    border: 0px;
+    color: #999;
+	background-color:transparent;
+}
+
+.group-section-1 .title {
+	padding-top:90px;
+}
+
+.group-section-1 ul {
+	list-style: none;
+	list-style-image: none;
+}
+
+.group-main-tabs {
+	padding:40px 15px 60px;
+    background-image: -webkit-linear-gradient(270deg, #f5f5f5, #fff);
+    background-image: linear-gradient(180deg, #f5f5f5, #fff);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+
+.group-main-tabs img {
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+}
+
+.group-main-tabs-title {
+	text-align:center;
+	padding-bottom:30px;
+}
+
+.group-main-tabs-title p {
+	font-size: 16px;
+	color: #888;
+}
+
+#mw-content-text .group-main-tabs ul.tabbernav li.tabberactive a {
+    border: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	color: #fff;
+	background-image:url('/skins/lowtechlab-skin/images/arrow-group.png');
+	background-position:bottom;
+}
+
+#mw-content-text .group-main-tabs .tabber .tabbertab {
+	border:none;
+	text-align:center;
+}
+
+.group-ready {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.group-bottom-links {
+    margin: 50px 0px 80px;
+    text-align: center;
+}
+
+.create-group-btn {
+	font-size: 17px;
+	padding: 12px 24px;
+    border: none;
+    background-color: #c1ac55;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 25px;
+    color: #fff;
+    margin-left: 10px;
+    transition: all ease .25s;
+}
+
+.create-group-btn:hover {
+	background:#ae9a46;
+}
+
+.group-bottom-links a:hover {
+    text-decoration:none;
+}
+a.create-group-btn:hover {
+    text-decoration:none;
+}
+
+/******
+
+CSS Sans les groupes
+
+*******/
+
+.ltl-footer-text {
+    font-size: 13px;
+    color: #aaa;
+    text-align: justify;
+    padding-right: 5%;
+}
+
+.sign-up-button-hp, .forminput_button, .donation-button, .community-button, .sign-up-developers {
+	background:#c1ac55;
+}
+
+.sign-up-button-hp:hover, .forminput_button:hover, .donation-button:hover, .community-button:hover, .sign-up-developers:hover {
+	background:#ae9a46;
+}
+
+.ltl-footer-link {
+	margin-left:5px;
+}
+
+.footer-credits a {
+	color:#c5c292;
+}
+
+.footer-credits a:hover {
+	color:#b0ad7b
+}
+
+#wpPreview, #wpDiff, #wpSave, .site-button, .multipleTemplateAdder {
+	background-color: #782b47;
+}
+
+#wpPreview:hover, #wpDiff:hover, #wpSave:hover, .site-button:hover, .multipleTemplateAdder:hover {
+	background-color: #591930;
+}
+
+.glyphicon-user:before {
+	color: #782b47;
+}
+
+.saving-menu .editHelp:hover {
+	background-color:#c1ac55;
+}
+
+.wf-top-button .btn {
+    background-color: #0c5154;
+    border: 1px solid #0c5154;
+    color: #fff;
+    background-image: none;
+}
+
+.marketing-section-hp, .wd-section-hp {
+	background-image: url('/skins/lowtechlab-skin/images/bg-ltl.jpg');
+	background-size: cover;
+}
+
+.ltl-footer-link a {
+	color: #ccc;
+}
+
+.ltl-footer-link a:hover {
+	color: #fff;
+}
+
+.wf-top-button .btn:hover {
+    background-color: #042d2f;
+    border: 1px solid #042d2f;
+    color: #fff;
+    background-image: none;
+}
+
+.contribute-block:hover {
+	background-color: #0c5154;
+	border-color: #0c5154;
+}
+
+@media screen and (max-width: 640px) {
+	.ltl-footer-text {
+	    padding-right: 0;
+	}
+}
+
+.group-machine-image img{
+	width: 100%;
+	height: 100%;
+    border: 1px solid #F1F1F1;
+}
