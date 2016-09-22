@@ -1,6 +1,6 @@
 <?php
 
-$wgResourceModules['ext.OSEStyleModule.js'] = array(
+$wgResourceModules['ext.OSEStyleModule.css'] = array(
 		'scripts' => array(),
 		'styles' => array('style.css'),
 		'messages' => array(
@@ -9,18 +9,23 @@ $wgResourceModules['ext.OSEStyleModule.js'] = array(
 		),
 		'position' => 'bottom',
 		'localBasePath' => __DIR__ . '/ressources',
-		'remoteExtPath' => 'OSEStyleModule',
+		'remoteExtPath' => 'OSEStyleModule/ressources',
 );
 
 ## The URL path to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
-$wgLogo = "$wgExtensionAssetsPath/OSEStyleModule/ressources/images/wiki.png";
+$wgLogo = "/extensions/OSEStyleModule/ressources/images/wiki.png";
 
-$wgFavicon = "$wgExtensionAssetsPath/OSEStyleModule/ressources/images/favicon.ico";
+$wgFavicon = "/extensions/OSEStyleModule/ressources/images/favicon.ico";
 
 
 $egChameleonExternalStyleModules[__DIR__ . '/ressources/style.css' ] = $wgScriptPath . '/skins/ose-skin';
 
+$wgHooks['BeforePageDisplay'][] = "oseStyleModuleOnBeforePageDisplay";
+
+function oseStyleModuleOnBeforePageDisplay( $out ) {
+	$out->addModules( 'ext.OSEStyleModule.css' );
+}
 
 $wfexploreCategories = array (
         'Type' => array (
