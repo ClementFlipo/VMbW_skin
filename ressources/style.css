@@ -46,7 +46,7 @@ body.page-Main_Page img {
 }
 
 .sign-up-button-hp, .forminput_button, .donation-button, .community-button, .sign-up-developers {
-	background:#c1ac55;
+	background:#ecbe13;
 }
 
 .sign-up-button-hp:hover, .forminput_button:hover, .donation-button:hover, .community-button:hover, .sign-up-developers:hover {
@@ -84,8 +84,8 @@ body.page-Main_Page img {
 }
 
 .contribute-block:hover {
-	background-color: #0c5154;
-	border-color: #0c5154;
+	background-color: #363636;
+	border-color: #363636;
 }
 
 @media screen and (max-width: 640px) {
