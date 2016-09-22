@@ -37,8 +37,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 
 	<component class="wiki-nav">
 		<!--  tool bar for other page than Home page-->
-		<modification type="HideFor" page="Main_Page,Accueil,Explorer,Contribuer,Tutoriel,Communauté,Community,Indispensable,Aide,Développeurs,Developers,UpdateProfile,
-			UpdateProfile/personal,WfExplore,Wikifab_est_en_version_Beta,Groupe,Early_access,Hello_World,Explore,Contribute,Tutorial,Help,mw-special-WfSearch,Get_started,Premiers_pas,Bonnes_pratiques,Best_practices"></modification>
+		<modification type="HideFor" page="UpdateProfile,UpdateProfile/personal,WfExplore,Early_access,Explore,Contribute,Tutorial,mw-special-WfSearch,Get_started,Best_practices"></modification>
 		<grid>
 			<row>
 				<cell span="12">
@@ -49,8 +48,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 	</component>
 	<component class="wiki-nav">
 		<!--  tool bar for Home page visible only by administrators -->
-		<modification type="ShowOnlyFor" page="Main_Page,Accueil,Explorer,Contribuer,Tutoriel,Communauté,Community,Indispensable,Aide,Développeurs,Developers,UpdateProfile,
-			UpdateProfile/personal,WfExplore,Wikifab_est_en_version_Beta,Groupe,Early_access,Hello_World,Explore,Contribute,Tutorial,Help,mw-special-WfSearch,Get_started,Premiers_pas,Bonnes_pratiques,Best_practices"></modification>
+		<modification type="ShowOnlyFor" page="UpdateProfile,UpdateProfile/personal,WfExplore,Early_access,Explore,Contribute,Tutorial,mw-special-WfSearch,Get_started,Best_practices"></modification>
 		<modification type="ShowOnlyFor" group="admin,sysop"></modification>
 		<grid>
 			<row>
@@ -62,9 +60,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 	</component>
 
 	<component>
-		<modification type="HideFor" page="Main_Page,Accueil,Explorer,Contribuer,Tutoriel,Communauté,Community,Indispensable,Aide,Développeurs,Developers,WfExplore,
-			Wikifab_est_en_version_Beta,Early_access,Explore,Groupe,Contribute,Tutorial,Help,Hello_World,mw-special-WfSearch,Get_started,Premiers_pas,Bonnes_pratiques,Best_practices"></modification>
-			<modification type="HideFor" namespace="NS_GROUP"></modification>
+		<modification type="HideFor" page="UpdateProfile,UpdateProfile/personal,WfExplore,Early_access,Explore,Contribute,Tutorial,mw-special-WfSearch,Get_started,Best_practices"></modification>
 		<grid>
 			<row>
 				<cell span="12">
@@ -82,26 +78,12 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 	</component>
 
 	<component>
-		<modification type="ShowOnlyFor" page="Main_Page,Accueil,Explorer,Contribuer,Tutoriel,Communauté,Community,Indispensable,Aide,Développeurs,Developers,WfExplore,
-			Wikifab_est_en_version_Beta,Early_access,Explore,Groupe,Contribute,Tutorial,Help,Hello_World,mw-special-WfSearch,Get_started,Premiers_pas,Bonnes_pratiques,Best_practices"></modification>
+		<modification type="ShowOnlyFor" page="UpdateProfile,UpdateProfile/personal,WfExplore,Early_access,Explore,Contribute,Tutorial,mw-special-WfSearch,Get_started,Best_practices"></modification>
 			<cell>
 				<cell span="12">
 					<component type="MainContent"></component>
 				</cell>
 			</cell>
-	</component>
-	
-	<component>
-		<modification type="ShowOnlyFor" namespace="NS_GROUP"></modification>
-			<cell>
-				<cell span="12">
-					<component type="MainContent"></component>
-				</cell>
-			</cell>
-	</component>
-
-	<component class="feedback">
-		<component type="FeedbackBtn"></component>
 	</component>
 
 	<component class="footerdata">
@@ -118,11 +100,11 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 <component class="footer-main">
 
 	<component class="container">
-		<component type="LowtechlabFooterLinks"></component>
+		<component type="OSEFooterLinks"></component>
 
 		<row class="footer-credits">
 			<cell span="7">
-				<component type="LowtechlabFooter"></component>
+				<component type="OSEFooter"></component>
 			</cell>
 			<cell span="5">
 				<component type="FooterIcons"></component>
