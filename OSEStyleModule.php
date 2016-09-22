@@ -14,9 +14,10 @@ $wgResourceModules['ext.OSEStyleModule.css'] = array(
 
 ## The URL path to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
-$wgLogo = "/extensions/OSEStyleModule/ressources/images/wiki.png";
 
-$wgFavicon = "/extensions/OSEStyleModule/ressources/images/favicon.ico";
+$wgLogo = $wgScriptPath . "/extensions/OSEStyleModule/ressources/images/wiki.png";
+
+$wgFavicon =  $wgScriptPath . "/extensions/OSEStyleModule/ressources/images/favicon.ico";
 
 
 $egChameleonExternalStyleModules[__DIR__ . '/ressources/style.css' ] = $wgScriptPath . '/skins/ose-skin';
