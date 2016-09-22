@@ -22,7 +22,7 @@ $wgAutoloadClasses['Skins\\Chameleon\\Components\\WikifabFooterLinks'] = __DIR__
 $egChameleonLayoutFile= __DIR__ . '/layout/layout-OSE.xml';
 
 $wgFooterIcons['poweredby']['wikifab']['url'] = "http://en.wikifab.org/";
-
+$egChameleonSearchPage = 'Search';
 
 $wgLogo = $wgScriptPath . "/extensions/OSEStyleModule/ressources/images/wiki.png";
 
