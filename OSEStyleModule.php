@@ -39,29 +39,25 @@ function oseStyleModuleOnBeforePageDisplay( $out ) {
 
 $wfexploreCategories = array (
         'Type' => array (
-                'Recherches théoriques' => 'Recherches théoriques',
-                'Prototype' => 'Prototype',
-				'En test' => 'En test',
-				'Low-tech validée' => 'Low-tech validée'
+                'Design' => 'Design',
+                'Planning' => 'Planning',
+				'Prototype' => 'Prototype',
+				'Almost done' => 'Almost done',
+				'Full release' => 'Full release',
         ),
         'area' => array (
-                'Énergie' => 'Énergie',
-                'Alimentation' => 'Alimentation',
-                'Hygiène' => 'Hygiène',
-                'Soleil' => 'Soleil',
-                'Marin' => 'Marin',
-                'Biomasse' => 'Biomasse',
-                'Eau' => 'Eau',
-                'Outils' => 'Outils',
-                'Vent' => 'Vent',
-                'Hydrolique' => 'Hydrolique',
-                'Humain' => 'Humain',
+                'Habitat' => 'Habitat',
+                'Agriculture' => 'Agriculture',
+                'Industry' => 'Industry',
+                'Energy' => 'Energy',
+                'Materials' => 'Materials',
+                'Transportation' => 'Transportation',
         ),
         'Difficulty' => array (
-                'Très facile' => 'Très facile',
-                'Facile' => 'Facile',
-                'Moyen' => 'Moyen',
-                'Difficile' => 'Difficile',
-                'Très difficile' => 'Très difficile'
+                'Very easy' => 'Very easy',
+                'Easy' => 'Easy',
+                'Medium' => 'Medium',
+                'Hard' => 'Hard',
+                'Very hard' => 'Very hard'
         )
 );
