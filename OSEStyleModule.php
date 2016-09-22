@@ -12,8 +12,8 @@ $wgResourceModules['ext.OSEStyleModule.css'] = array(
 		'remoteExtPath' => 'OSEStyleModule/ressources',
 );
 
-## The URL path to the logo.  Make sure you change this from the default,
-## or else you'll overwrite your logo when you upgrade!
+
+$wgMessagesDirs['OSEStyleModule'] = __DIR__ . "/i18n";
 
 $wgLogo = $wgScriptPath . "/extensions/OSEStyleModule/ressources/images/wiki.png";
 
