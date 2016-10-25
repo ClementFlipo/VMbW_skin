@@ -36,5 +36,3 @@ $wgHooks['BeforePageDisplay'][] = "oseStyleModuleOnBeforePageDisplay";
 function oseStyleModuleOnBeforePageDisplay( $out ) {
 	$out->addModules( 'ext.VMbWStyleModule.css' );
 }
-
-);
