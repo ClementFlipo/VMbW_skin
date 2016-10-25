@@ -97,11 +97,11 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 <component class="footer-main">
 
 	<component class="container">
-		<component type="OSEFooterLinks"></component>
+		<component type="VMbWFooterLinks"></component>
 
 		<row class="footer-credits">
 			<cell span="7">
-				<component type="OSEFooter"></component>
+				<component type="VMbWFooter"></component>
 			</cell>
 			<cell span="5">
 				<component type="FooterIcons"></component>
