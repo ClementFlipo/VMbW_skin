@@ -22,7 +22,7 @@ use Linker;
  * @since 1.0
  * @ingroup Skins
  */
-class OSEFooterLinks extends Component {
+class VMbWFooterLinks extends Component {
 
 	/**
 	 * Builds the HTML code for this component

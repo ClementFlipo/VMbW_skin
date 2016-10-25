@@ -29,10 +29,10 @@ $wgLogo = $wgScriptPath . "/extensions/VMbWStyleModule/ressources/images/wiki.pn
 $wgFavicon =  $wgScriptPath . "/extensions/VMbWStyleModule/ressources/images/favicon.ico";
 
 
-$egChameleonExternalStyleModules[__DIR__ . '/ressources/style.css' ] = $wgScriptPath . '/skins/ose-skin';
+$egChameleonExternalStyleModules[__DIR__ . '/ressources/style.css' ] = $wgScriptPath . '/skins/VMbW_skin';
 
-$wgHooks['BeforePageDisplay'][] = "oseStyleModuleOnBeforePageDisplay";
+$wgHooks['BeforePageDisplay'][] = "VMbWStyleModuleOnBeforePageDisplay";
 
-function oseStyleModuleOnBeforePageDisplay( $out ) {
+function VMbWStyleModuleOnBeforePageDisplay( $out ) {
 	$out->addModules( 'ext.VMbWStyleModule.css' );
 }
