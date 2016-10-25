@@ -9,17 +9,13 @@
 	background-color:#333334;
 }
 
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #dbb00f;
-    color: #000;
+.sign-up-button-hp, .forminput_button, .donation-button, .community-button, .sign-up-developers, #wpPreview, #wpDiff, #wpSave, .site-button, .multipleTemplateAdder {
+	background:#e51234;
 }
 
-.sign-up-button-hp, .forminput_button, .donation-button, .community-button, .sign-up-developers {
-	background:#ecbe13;
-}
-
-.sign-up-button-hp:hover, .forminput_button:hover, .donation-button:hover, .community-button:hover, .sign-up-developers:hover {
-	background:#ae9a46;
+.sign-up-button-hp:hover, .forminput_button:hover, .donation-button:hover, .community-button:hover, .sign-up-developers:hover,
+#wpPreview:hover, #wpDiff:hover, #wpSave:hover, .site-button:hover, .multipleTemplateAdder:hover {
+	background:#d31130;
 }
 
 .ltl-footer-link {
@@ -27,7 +23,7 @@
 }
 
 .footer-credits a, .footer-credits a:visited {
-	color:#5eabed;
+	color:#e51234;
 }
 
 .wf-top-button .btn {
