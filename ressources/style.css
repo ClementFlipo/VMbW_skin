@@ -5,6 +5,20 @@
     padding-right: 5%;
 }
 
+.marketing-section-hp, .wd-section-hp {
+	background-image: url(../images/bg-vmbw.jpg);
+	background-position: center;
+    color: #333334;
+}
+
+.marketing-section-hp .log-in-link {
+    color: #000;
+}
+
+.marketing-section-hp .log-in-link:hover {
+    color: #000;
+}
+
 .footer-main {
 	background-color:#333334;
 }
